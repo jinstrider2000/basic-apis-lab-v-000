@@ -5,3 +5,8 @@
   <%= submit_tag "Search Github!" %>
 <% end %>
 
+
+<% if @repos.present? %>
+  <%= render @repos %>
+<% end %>
+
