@@ -7,5 +7,5 @@
 
 
 <% if @repos.present? %>
-  <%= render @repos %>
+  <%= render collection: @repos, partial: "repo" %>
 <% end %>
